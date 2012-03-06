@@ -5,7 +5,7 @@ require 'active_record'
 # DB Setup
 
 ActiveRecord::Base.establish_connection(
-:adapter => "mysql",
+:adapter => "mysql2",
 :host => "localhost",
 :username => "root",
 :database => "chinese_thes"
